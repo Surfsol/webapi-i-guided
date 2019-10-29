@@ -28,7 +28,7 @@ server.get('/hubs', (req, res) => {
 })
 
 // add a hub
-server.post('/hubs', (req, res)=> {
+server.post('/hubs/echo', (req, res)=> {
     //axios.post(url, data)
     //get hub data from the request
     const hubData = req.body;
